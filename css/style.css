@@ -352,7 +352,8 @@ a.policy:hover {
     padding: 1.5rem;
   }
   .h5Blog {
-      text-align: center;
+      text-align: center !important;
+      text-size : 0.75rem;
             }
 }
 
