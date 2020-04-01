@@ -351,6 +351,9 @@ a.policy:hover {
     text-align: center;
     padding: 1.5rem;
   }
+  .h5Blog {
+      text-align: center;
+            }
 }
 
 @media screen and (min-width: 992px) {
