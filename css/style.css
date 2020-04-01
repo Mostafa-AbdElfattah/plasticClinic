@@ -11,12 +11,12 @@ body {
 .navItem {
   padding: 0 20px 0;
 }
-.navLink{
-    color: #292A63 !important;
+.navLink {
+  color: #292a63 !important;
 }
 
-.navLink:hover{
-    color: rgb(69, 57, 231) !important;
+.navLink:hover {
+  color: rgb(69, 57, 231) !important;
 }
 
 .row {
@@ -28,7 +28,7 @@ body {
   background-color: #fcfcfc;
 }
 .header-h1 {
-    color: #292A63 !important;
+  color: #292a63 !important;
   font-size: 4rem;
   font-weight: 400;
 }
@@ -48,101 +48,97 @@ body {
 .header-p {
   font-size: 1.2rem;
   padding-right: 5rem;
-  color: #292A63 !important;
+  color: #292a63 !important;
 }
 
-.header-btn{
-    background-color: #292A63;
-    border-color: #292A63;
-    padding-left: 3rem;
-    padding-right: 3rem;
+.header-btn {
+  background-color: #292a63;
+  border-color: #292a63;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
-
-#appointment{
-    min-height: 70vh !important;
-    padding: 2rem;
+#appointment {
+  min-height: 70vh !important;
+  padding: 2rem;
 }
 
-.youTubeImg-div{
-    display: flex;
-    justify-content: center;
-    position: relative;
-
+.youTubeImg-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
-.youTubeImg{
+.youTubeImg {
   height: 100%;
   width: 100%;
-  object-fit: cover ;
-
+  object-fit: cover;
 }
 
-.youTubeLogoText{
-    width: 15%;
+.youTubeLogoText {
+  width: 15%;
 }
 
-.youtubeSpan{
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    color: #fff;
-    font-size: 1.2rem;
+.youtubeSpan {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  color: #fff;
+  font-size: 1.2rem;
 }
 
-.youTubeLogoDiv{
-    position: absolute;
-    left: 42%;
-    top: 42%;
+.youTubeLogoDiv {
+  position: absolute;
+  left: 42%;
+  top: 42%;
 }
 
-.youtubeLogo{
-    width: 60%;
+.youtubeLogo {
+  width: 60%;
 }
 
-.sec1H1{
-    padding-bottom: 10px;
-    color: #292A63 !important;
-    font-weight: 400;
+.sec1H1 {
+  padding-bottom: 10px;
+  color: #292a63 !important;
+  font-weight: 400;
 }
 
-
-.sec1P{
-    font-size: 1.2rem;
-
+.sec1P {
+  font-size: 1.2rem;
 }
 
-.operationsH1 , .blogH1 , .requestH1{
-    padding-bottom: 50px;
-    color: #292A63 !important;
-    font-weight: 400;
-    text-align: center;
+.operationsH1,
+.blogH1,
+.requestH1 {
+  padding-bottom: 50px;
+  color: #292a63 !important;
+  font-weight: 400;
+  text-align: center;
 }
 
-#operations{
+#operations {
   min-height: 50vh !important;
   padding: 20px 0 30px;
 }
-.imagesContainer{
+.imagesContainer {
   padding: 0 30px 0;
 }
 
-.singleImgContainer{
+.singleImgContainer {
   padding: 0;
   position: relative;
 }
-.imagesContainer , .singleImgContainer{
+.imagesContainer,
+.singleImgContainer {
   display: flex;
   justify-content: center;
- 
 }
 
-.operationsImg{
+.operationsImg {
   height: 100%;
   width: 100%;
-  object-fit: cover ;
+  object-fit: cover;
 }
-
 
 .hoverEffect {
   position: absolute;
@@ -152,57 +148,57 @@ body {
   width: 100%;
   height: 100%;
   top: 0%;
- 
 }
 
-
 .singleImgContainer:hover > .hoverEffect {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-.hoverEffect > button{
+.hoverEffect > button {
   color: #fff !important;
   border-color: #fff !important;
   min-width: 50% !important;
-  margin: 27% 0;
+  margin: 25% 0;
   font-size: 1.5rem;
 }
 
-.hoverEffect > button:hover{
+.operationTextHover {
+  text-align: center;
+}
+
+.hoverEffect > button:hover {
   background-color: rgb(11, 59, 122) !important;
 }
 
-
-#doctors{
+#doctors {
   background: linear-gradient(
-    to bottom,
-    rgba(10, 74, 126, 0.4) 0,
-    rgba(10, 74, 126, 0.4)  100%
-  ),
-  url(../images/photo-1543325042-c67825847491@2x.png);
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
-min-height: 70vh;
-position: relative;
+      to bottom,
+      rgba(10, 74, 126, 0.4) 0,
+      rgba(10, 74, 126, 0.4) 100%
+    ),
+    url(../images/photo-1543325042-c67825847491@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 70vh;
+  position: relative;
 }
 
-
-.doctorsH1{
-  padding:2% 2% 4% !important;
+.doctorsH1 {
+  padding: 2% 2% 4% !important;
   font-weight: 400;
   color: #fff;
 }
 
-.doctorsSingleContainer{
+.doctorsSingleContainer {
   position: relative;
   width: 70%;
   padding: 0 !important;
 }
 
-.doctorshoverEffect{
+.doctorshoverEffect {
   position: absolute;
   display: none;
   opacity: 0.7;
@@ -212,120 +208,111 @@ position: relative;
 }
 
 .doctorsSingleContainer:hover > .doctorshoverEffect {
-  display:flex;
+  display: flex;
   justify-content: center;
   padding: 0;
 }
 
-.doctorSingleImg{
+.doctorSingleImg {
   height: 100%;
   width: 100%;
-  object-fit: cover ;
+  object-fit: cover;
 }
 
-.glider-contain{
+.glider-contain {
   width: 75%;
   margin-left: 20%;
 }
 
-.drName{
+.drName {
   position: absolute;
+  font-size: 1.5em;
   top: 40%;
-  color: #292A63 !important;
+  color: #292a63 !important;
+  text-align: center;
 }
 
-#blog{
+#blog {
   padding: 5vh 5vw;
-  color: #292A63 !important;
+  color: #292a63 !important;
 }
 
-
-.blogImg{
+.blogImg {
   width: 50px;
   padding: 5px;
 }
 
-.blog-post{
-  border: 1px solid #292A63;
+.blog-post {
+  border: 1px solid #292a63;
   border-radius: 18px;
-  padding:5px 10px;
+  padding: 5px 10px;
 }
 
-.main-blog{
+.main-blog {
   margin-bottom: 5vh;
   padding-bottom: 20px;
 }
 
-.blue-blog , .sec-blog{
- margin-bottom: 24px;
-  
+.blue-blog,
+.sec-blog {
+  margin-bottom: 24px;
 }
 
-.blue-blog{
+.blue-blog {
   color: #fff;
- background-color: #292A63 !important ;
+  background-color: #292a63 !important ;
 }
 
-#blog p{
+#blog p {
   margin-bottom: 0 !important;
 }
 
-.blogOnePost{
+.blogOnePost {
   padding-top: 5px !important;
 }
 
-.fourth-blog{
+.fourth-blog {
   margin-bottom: 5vh;
 }
 
-#request{
-  
+#request {
   background: url(../images/photo-1519494140681-8b17d830a3e9@2x.png);
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
-min-height: 70vh;
-position: relative;
-padding: 2%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 70vh;
+  position: relative;
+  padding: 2%;
 }
 
-.chekBtn{
-  color: #292A63 !important ;
+.chekBtn {
+  color: #292a63 !important ;
 }
 
-
-.formBtn{
-  background-color: #292A63;
-  border-color: #292A63;
+.formBtn {
+  background-color: #292a63;
+  border-color: #292a63;
   padding-left: 3rem;
   padding-right: 3rem;
   margin: 0 auto !important;
   display: flex;
 }
 
-a.policy{
+a.policy {
   margin: 0 auto !important;
   display: flex;
   justify-content: center;
   padding: 20px;
   text-decoration: none;
-  color:#62638B ;
-  
+  color: #62638b;
 }
 
-a.policy:hover{
-  color: #292A63;
+a.policy:hover {
+  color: #292a63;
 }
-
-
-
-
-
 
 /**************Responsive******************/
-
-
 
 @media screen and (max-width: 992px) {
   .brand-img {
@@ -344,37 +331,30 @@ a.policy:hover{
     text-align: center;
   }
 
-  .header-p{
-      text-align: center;
-      padding: 2rem;
+  .header-p {
+    text-align: center;
+    padding: 2rem;
   }
 
-  .header-btn{
-      margin: 0 auto !important;
-      display: flex;
+  .header-btn {
+    margin: 0 auto !important;
+    display: flex;
   }
 
-  .sec1H1{
-      text-align: center;
-      padding-top: 10px;
-      font-weight: 400;
+  .sec1H1 {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
   }
 
-  .sec1P{
-      text-align: center;
-      padding: 1.5rem;
+  .sec1P {
+    text-align: center;
+    padding: 1.5rem;
   }
-
-
 }
 
 @media screen and (min-width: 992px) {
-
-    .header-btn-div{
-        padding: 2rem 0 1rem 0;
-    }
-
-
+  .header-btn-div {
+    padding: 2rem 0 1rem 0;
+  }
 }
-
-
